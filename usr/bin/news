@@ -1,4 +1,4 @@
 #!/bin/bash
-# to make 6005-cw1-xl24g11 as a command in line
+# add a command to direct to index.php
 
 php /usr/share/6005-cw1-xl24g11/index.php $@
