@@ -1,5 +1,63 @@
-package (1.0.0) unstable; urgency=low
+6005-cw1-xl24g11 (1.2.0) stable; urgency=low
 
-  * Initial Release.
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * modify README file
 
- -- liangxiangyu <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 02:35:19 +0000
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 07:16:12 +0000
+
+6005-cw1-xl24g11 (1.1.3) unstable; urgency=low
+
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * modify control file
+
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 06:51:59 +0000
+
+6005-cw1-xl24g11 (1.1.2) unstable; urgency=low
+
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * add command lines in rules file
+  * change the news file
+
+
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 06:39:53 +0000
+
+6005-cw1-xl24g11 (1.1.1) unstable; urgency=low
+
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * add dependency of php
+  * direct the path of conf file
+
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 06:12:21 +0000
+
+6005-cw1-xl24g11 (1.1.0) unstable; urgency=low
+
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * update copyright file
+  * modify rules file
+  * modify copyright of package
+
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 05:46:33 +0000
+
+6005-cw1-xl24g11 (1.0.2) unstable; urgency=low
+
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * change package information
+  * add new file
+
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 03:40:44 +0000
+
+6005-cw1-xl24g11 (1.0.1) unstable; urgency=low
+
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * move files to filesystem hierarchy
+  * copy generated file by dh_make to debian folder
+
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 02:53:15 +0000
+
+6005-cw1-xl24g11 (1.0.0) unstable; urgency=low
+
+  [Xiangyu Liang <xl24g11@ecs.soton.ac.uk>]
+  * first commit
+
+ -- Xiangyu Liang <xl24g11@ecs.soton.ac.uk>  Wed, 22 Feb 2012 02:27:46 +0000
+
