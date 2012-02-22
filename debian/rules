@@ -17,3 +17,51 @@ command = $(CURDIR)/usr/bin/news
 DEST1 = $(CURDIR)/debian/6005-cw1-xl24g11/usr/share/6005-cw1-xl24g11
 DEST2 = $(CURDIR)/debian/6005-cw1-xl24g11/usr/bin
 DEST3 = $(CURDIR)/debian/6005-cw1-xl24g11/etc/6005-cw1-xl24g11
+
+build:
+	dh_testdir
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+	dh_clean
+
+install: build clean $(conf) $(index) $(rss_php) $(command)
+	dh_testdir
+	dh_testroot
+	dh_prep
+	dh_installdirs
+
+	mkdir -m 755 -p $(DEST1)
+	mkdir -m 755 -p $(DEST2)
+	mkdir -m 755 -p $(DEST3)
+
+	install -m 755 $(index) $(DEST1)
+	install -m 755 $(rss_php) $(DEST1)
+	install -m 755 $(command) $(DEST2)
+	install -m 755 $(conf) $(DEST3)
+
+# Build architecture-independent files here.
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_installexamples
+	dh_installdebconf
+	dh_installman
+	dh_link
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+# Build architecture-dependent files here.
+binary-arch: build install
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install
