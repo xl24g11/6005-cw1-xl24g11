@@ -1,7 +1,7 @@
 Source: 6005-cw1-xl24g11
 Section: php
 Priority: optional
-Maintainer: liangxiangyu <xl24g11@ecs.soton.ac.uk>
+Maintainer: Xiangyu Liang <xl24g11@ecs.soton.ac.uk>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 Homepage: https://github.com/xl24g11/6005-cw1-xl24g11
