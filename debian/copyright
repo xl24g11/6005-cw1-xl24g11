@@ -4,7 +4,7 @@ This work was packaged for Debian by:
 
 It was downloaded from:
 
-    <url://example.com>
+    https://github.com/xl24g11/6005-cw1-xl24g11
 
 Upstream Author(s):
 
@@ -13,8 +13,7 @@ Upstream Author(s):
 
 Copyright:
 
-    <Copyright (C) YYYY Firstname Lastname>
-    <likewise for another author>
+    Copyright (C) 2012 Xiangyu Liang <xl24g11@ecs.soton.ac.uk>
 
 License:
 
@@ -36,7 +35,7 @@ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
 
 The Debian packaging is:
 
-    Copyright (C) 2012 liangxiangyu <xl24g11@ecs.soton.ac.uk>
+    Copyright (C) 2012 Xiangyu Liang <xl24g11@ecs.soton.ac.uk>
 
 # Please chose a license for your packaging work. If the program you package
 # uses a mainstream license, using the same license is the safest choice.
