@@ -46,7 +46,7 @@
 
 	# Read config from file
 	if (@!$config) {
-		$config_file = '../../../etc/6005-cw1-xl24g11/feeds.conf';
+		$config_file = '/etc/6005-cw1-xl24g11/feeds.conf';
 		if (file_exists($config_file)) {
 			$config = conf_from_file($config_file);
 		}
