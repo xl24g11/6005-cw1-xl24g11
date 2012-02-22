@@ -9,5 +9,11 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-%:
-	dh $@ 
+conf = $(CURDIR)/etc/6005-cw1-xl24g11/feeds.conf
+index = $(CURDIR)/usr/share/6005-cw1-xl24g11/index.php
+rss_php = $(CURDIR)/usr/share/6005-cw1-xl24g11/rss_php.php
+command = $(CURDIR)/usr/bin/news
+
+DEST1 = $(CURDIR)/debian/6005-cw1-xl24g11/usr/share/6005-cw1-xl24g11
+DEST2 = $(CURDIR)/debian/6005-cw1-xl24g11/usr/bin
+DEST3 = $(CURDIR)/debian/6005-cw1-xl24g11/etc/6005-cw1-xl24g11
