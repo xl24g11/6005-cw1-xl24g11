@@ -1,15 +1,15 @@
-Source: package
-Section: unknown
-Priority: extra
+Source: 6005-cw1-xl24g11
+Section: php
+Priority: optional
 Maintainer: liangxiangyu <xl24g11@ecs.soton.ac.uk>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://github.com/xl24g11/6005-cw1-xl24g11
 #Vcs-Git: git://git.debian.org/collab-maint/package.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/package.git;a=summary
 
-Package: package
+Package: 6005-cw1-xl24g11
 Architecture: all
 Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: A RSS reader written in php
+ This package is a coursework for info6005.
