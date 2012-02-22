@@ -1,8 +1,14 @@
 The package 6005-cw1-xl24g11 is a part of the coursework for the course INFO6005 Rich Internet Applications in University of Southampton. It is used as a RSS reader.
 
+GitHub Repository: https://github.com/xl24g11/6005-cw1-xl24g11
+
+Package:
+
+  Please run dpkg-buildpackage
+
 Install:
 
-  Please run the command 'dpkg -i 6005-cw1-xl24g11.deb' in Terminal
+  Please run the command 'dpkg -i 6005-cw1-xl24g11_1.2.0_all.deb' in Terminal
 
 Use:
 
